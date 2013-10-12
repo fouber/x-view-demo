@@ -23,7 +23,7 @@ npm install -g fis
     fis server start --no-rewrite
     ```
 
-1. install x-view framework
+1. install [x-view](https://github.com/fouber/x-view) framework
 
     ```bash
     fis server open
