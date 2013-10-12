@@ -29,7 +29,7 @@ npm install -g fis
     fis server open
     ```
 
-    clone x-view framework in this directory
+    clone [x-view](https://github.com/fouber/x-view) framework in this directory
     
     ```bash
     git clone https://github.com/fouber/x-view.git
