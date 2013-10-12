@@ -1,6 +1,9 @@
 //fis.config.set('namespace', 'common');
 fis.config.set('roadmap.path', [
     {
+        reg : 'index.php'
+    },
+    {
         reg : '**.php',
         url : '$&',
         release : '/template/$&',
@@ -9,6 +12,10 @@ fis.config.set('roadmap.path', [
     {
         reg : /^^\/([a-z_]+-)*map\.json$/i,
         release : '/map/$&'
+    },
+    {
+        reg : 'README.md',
+        release : false
     },
     {
         reg : '**',
